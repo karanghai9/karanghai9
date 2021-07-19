@@ -1,0 +1,34 @@
+.parallax-about {
+    background-image: url('/about.jpg');
+    opacity: 0.9;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-header {
+    padding: 16vh 14rem 16vh 8rem;
+    color: orangered;
+}
+.about-text {
+    background-color: white;
+    opacity: 0.98;
+    padding: 7vh 8rem 6vh 8rem;
+    /* margin-bottom: 2vh; */
+    color: black;
+    font-size: large; 
+}
+
+.about-text  a {
+    color: orangered;
+    text-decoration: none;
+}
+
+.container_image {
+    width: 200px;
+    height: 200px;
+    margin-left: 5rem;
+    float: right;
+    border-radius: 10px;
+}
+  

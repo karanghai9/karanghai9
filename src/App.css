@@ -1,0 +1,73 @@
+.AppStyling {
+  text-align: center;
+}
+
+.navbar-brand {
+  color: orangered !important;
+  font-size: xx-large !important;
+  font-weight: bolder;
+}
+
+.navb {
+  position: sticky !important;
+  top: 0px !important;
+  /* background-color: #141414; */
+  background-color: black;
+  opacity: 0.85;
+  z-index: 500;
+}
+
+.navb a{
+  padding-left: 20px;
+  color: orangered;
+  text-decoration: none;
+}
+
+.navb a:hover {
+  color: orangered !important;
+}
+
+.route a {
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  padding: 0px 1rem;
+  position: relative;
+  text-decoration: none;
+}     
+
+.route a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: orangered;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.route a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.route a:hover {
+  color: orangered !important;
+  transition: 0.4s ease-in-out;
+  text-decoration: none;
+}
+
+.page-footer {
+  color: white;
+  z-index: 500;
+  background-color: #141414;
+}
+
+.deviceError {
+  color: orangered;
+  font-size: 10px;
+  margin-top: 30vh;
+  padding: 2rem;
+}
